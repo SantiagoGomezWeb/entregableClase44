@@ -222,4 +222,3 @@ components:
         owner:
           type: string
           description: Dueño del producto
-

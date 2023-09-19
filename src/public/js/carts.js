@@ -37,4 +37,4 @@ const dateString = data => {
     let timePart = date.toISOString().split('T')[1].split('.')[0];
 
     return {datePart, timePart};
-}
+};

@@ -63,5 +63,3 @@ class TicketManager {
 };
 
 export default TicketManager;
-
-

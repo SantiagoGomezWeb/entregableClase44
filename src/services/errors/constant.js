@@ -17,6 +17,4 @@ export const generateProductErrorInfo = (product) => {
     * A boolean type was expected for "status", received ${typeof product.status}
     * A string type was expected for "category", received ${typeof product.category}
     * An array type was expected for "thumbnails", received ${typeof product.thumbnails}`;
-}
-
-
+};

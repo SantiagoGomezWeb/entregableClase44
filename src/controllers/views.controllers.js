@@ -6,9 +6,6 @@ import { generateProductErrorInfo } from '../services/errors/constant.js';
 import config from "../config/config.js";
 import  jwt  from "jsonwebtoken";
 
-
-
-
 const cart = []
 
 const getIndexView = async (req, res) => {

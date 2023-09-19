@@ -80,7 +80,4 @@ function uploadFile(type, inputId, docType) {
             console.error('Error uploading file:', error);
             alert('Error uploading file');
         });
-}
-
-
-
+};

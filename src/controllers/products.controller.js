@@ -178,10 +178,6 @@ const postProduct = async (req, res) => {
             Array.isArray(thumbnails)))
             return res.status(400).send({ message: 'type of property is not valid' })
 
-        // if (price < 0 || stock < 0) return res
-        //     .status(400)
-        //     .send({ message: 'Product and stock cannot be values less than or equal to zero' });
-
         const result = await productService.addProductService(product)
 
         if (result.code === 11000) return res

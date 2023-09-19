@@ -1,5 +1,3 @@
-
-
 const productsStock = document.getElementById('productsStock')
 const productsInFront = document.getElementById('productsInFront')
 const formUpdate = document.getElementById('formUpdate')

@@ -79,13 +79,7 @@ const uploadHandler = async (req, res) => {
     }
 };
 
-
-
-
-
-
 export default {
     changeUserRole,
     uploadHandler
-}
-
+};

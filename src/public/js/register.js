@@ -29,4 +29,4 @@ registerForm.addEventListener('submit', event => {
     })
 
 
-})
+});

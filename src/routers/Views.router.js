@@ -45,5 +45,4 @@ export default class ViewsRouter extends BaseRouter {
         
     }
 
-}
-
+};

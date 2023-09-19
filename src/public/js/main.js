@@ -2,13 +2,6 @@ const btnLogout = document.getElementById('logout')
 const productsPage = document.getElementById('productsPage')
 const ticketsPurchases = document.getElementById('ticketsPurchases');
 
-
-// document.addEventListener('DOMContentLoaded', (event) => {
-    
-// });
-
-
-
 productsPage.addEventListener('click', () => {
     try {
         window.location.href ='/products'
@@ -50,8 +43,3 @@ try {
 
 })
 } catch{(error => {throw new Error(error)})};
-
-
-// ticketsView.addEventListener('click', () => {
-//     window.location.href = '/allTickets'
-// })

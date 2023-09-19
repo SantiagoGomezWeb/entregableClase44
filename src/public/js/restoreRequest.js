@@ -21,4 +21,4 @@ form.addEventListener('submit', async (evt) => {
     } else {
         text.innerHTML = json.error
     }
-})
+});

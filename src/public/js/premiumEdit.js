@@ -137,4 +137,4 @@ const btnEditProduct = () => {
     })
 }
 
-viewProducts()
+viewProducts();

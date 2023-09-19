@@ -123,7 +123,4 @@ btnCartFinal.addEventListener('click', () => {
 })
 
 
-productsInCart()
-
-
-
+productsInCart();
